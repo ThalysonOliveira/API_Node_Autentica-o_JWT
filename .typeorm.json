@@ -1,0 +1,16 @@
+{
+  "type": "postgres",
+  "hsot": "192.168.99.100",
+  "username": "postgres",
+  "password": "docker",
+  "database": "nodejwt",
+  "entities": [
+    "src/app/entities/*.ts"
+  ],
+  "migrations": [
+    "src/app/database/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "src/app/database/migrations"
+  }
+}
