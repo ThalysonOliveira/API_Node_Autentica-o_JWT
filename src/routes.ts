@@ -6,6 +6,6 @@ import Auth from './app/services/Auth';
 const routes = Router();
 
 routes.post('/users', CreateUser.store);
-routes.post('auth', Auth.store);
+routes.post('auth', Auth.authenticate);
 
 export default routes;
