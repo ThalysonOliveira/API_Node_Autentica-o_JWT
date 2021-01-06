@@ -6,7 +6,7 @@ import jwt from 'jsonwebtoken';
 import User from '../entities/User';
 
 class Auth {
-  async store(req: Request, res: Response) {
+  async authenticate(req: Request, res: Response) {
     const repository = await getRepository(User);
     const { email, password } = req.body;
 
