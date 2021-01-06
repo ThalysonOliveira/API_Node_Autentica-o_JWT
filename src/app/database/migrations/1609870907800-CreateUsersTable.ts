@@ -11,6 +11,7 @@ export default class CreateUsersTable1609870907800 implements MigrationInterface
             type: 'uuid',
             isPrimary: true,
             generationStrategy: 'uuid',
+            default: 'uuid_generate_v4()',
           },
           {
             name: 'email',
