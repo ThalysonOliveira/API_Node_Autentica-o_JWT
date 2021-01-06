@@ -12,6 +12,6 @@ routes.post('/users', CreateUser.store);
 routes.post('/auth', Auth.authenticate);
 
 routes.use(authConfig);
-routes.get('users', ListUser.index);
+routes.get('/users', ListUser.index);
 
 export default routes;
