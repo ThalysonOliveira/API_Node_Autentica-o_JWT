@@ -1,7 +1,9 @@
 import { Router } from 'express';
 
+import CreateUser from './app/services/CreateUser';
+
 const routes = Router();
 
-routes.get('/', (req, res) => res.json({ ok: true }));
+routes.post('/users', CreateUser.store);
 
 export default routes;
