@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { getRepository } from 'typeorm';
 import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
 
 import User from '../entities/User';
 
@@ -19,6 +20,12 @@ class Auth {
     if (!isValidPassword) {
       return res.sendStatus(401);
     }
+
+    const token = jwt.sign({ id: user.id }, 'secret', { expiresIn: '1d' });
+    return res.json({
+      user,
+      token,
+    });
   }
 }
 
