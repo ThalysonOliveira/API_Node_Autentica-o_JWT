@@ -44,7 +44,7 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 <a id="funcionalidades"></a>
 ## 🛠️ Funcionalidades
 
-API desenvolvida em node.js, utilizando typescript para por em pratica os conceitos aprendidos acerca sobre o mesmo e autenticação em jsonwebtoken
+API desenvolvida em node, utilizando typescript para por em pratica os conceitos aprendidos acerca sobre o mesmo e autenticação em jsonwebtoken
 - Criação de Usuários com autenticação JWT
 - Listar usuários cadastrados
 
