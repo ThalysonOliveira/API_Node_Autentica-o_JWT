@@ -9,7 +9,7 @@
 <a id="tecnologia"></a>
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
+Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 - [Node.js](https://nodejs.org/en/)
 - [Express](https://expressjs.com/pt-br/)
@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido utilizando a seguinte tecnologia:
 
 - Faça um clone desse repositório: `https://github.com/ThalysonOliveira/API_Node_JWT.git`
 - Instale as dependências: `yarn`
-- Configurnado o banco para uso:
+- Configurando o banco para uso:
    - `Crie uma imagem do PostgreSQL no docker, e inclua as configurações no ormconfig.json`
      
      `(Estou devendo as variáveis de ambiente)`
